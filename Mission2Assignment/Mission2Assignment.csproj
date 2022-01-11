@@ -6,8 +6,20 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\lib\" />
+    <Content Remove="wwwroot\js\" />
+    <Content Remove="wwwroot\css\" />
+    <Content Remove="wwwroot\img\" />
+    <Content Remove="wwwroot\lib\bootstrap\" />
+    <Content Remove="wwwroot\lib\jquery\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\jquery\" />
   </ItemGroup>
 </Project>

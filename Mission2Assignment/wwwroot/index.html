@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Zac's Misison 2 Assignment</title>
+    <!--This is me linking my bootstrap-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <!--This is me linking my own CSS-->
+    <link href="css/myStyles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>My preferred name is Zac</h1>
+
+    <img src="img/hiking.jpeg" height="400" />
+
+    <p>
+        I really hope to get a lot out of this class. I want to learn how to build a high-scale program that can translate into me providing solutions to in a professional setting.
+        Along with these technical skills, I really hope to learn and grow personally and gain other insights that may be relevant to my life.
+    </p>
+
+    <!--Top three jobs-->
+    <p>        My Top Three Jobs</p>
+    <ul>
+        <li>1. Database Designer</li>
+        <li>2. Web Developer</li>
+        <li>3. Solutions Architect</li>
+
+    </ul>
+
+    <br />
+
+    <h2>Grade Calculator</h2>
+    <p>Put in each grade as a number.</p>
+    <form>
+        <label for="assignment">Assignments (55%):</label>
+        <input id="assignment" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+
+        <label for="group">Group Project (5%):</label>
+        <input id="group" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+
+        <label for="quiz">Quizzes (10%):</label>
+        <input id="quiz" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+
+        <label for="exam">Exams  (20%):</label>
+        <input id="exam" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+
+        <label for="intex">INTEX (10%):</label>
+        <input id="intex" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+        <br />        <br />
+
+        <input class="btn" id="btnSend" type="button" value="Calculate Grade Now" />
+    </form>
+
+
+    <!--This is me linking my JS files-->
+    <script src="js/calculateGrade.js"></script>
+
+    <!-- bootstrap JS-->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+
+    <!-- this is where we will put the jquery file-->
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+
+
+</body>
+</html>
