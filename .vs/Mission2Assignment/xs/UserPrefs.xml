@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{4C4E303B-2097-4476-913B-111AB3DCE68F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission2Assignment/wwwroot/index.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission2Assignment/Startup.cs">
     <Files>
       <File FileName="Mission2Assignment/Program.cs" Line="1" Column="1" />
-      <File FileName="Mission2Assignment/wwwroot/index.html" Line="50" Column="95" />
-      <File FileName="Mission2Assignment/wwwroot/js/calculateGrade.js" Line="23" Column="3" />
+      <File FileName="Mission2Assignment/wwwroot/index.html" Line="54" Column="12" />
+      <File FileName="Mission2Assignment/wwwroot/js/calc.js" Line="1" Column="24" />
+      <File FileName="Mission2Assignment/wwwroot/js/calculateGrade.js" Line="11" Column="54" />
       <File FileName="Mission2Assignment/wwwroot/css/myStyles.css" Line="10" Column="3" />
+      <File FileName="Mission2Assignment/wwwroot/lib/bootstrap/js/bootstrap.js" Line="1" Column="1" />
+      <File FileName="Mission2Assignment/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,8 +25,8 @@
                     <Node name="js" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="index.html" selected="True" />
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

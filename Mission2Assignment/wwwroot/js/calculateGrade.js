@@ -5,19 +5,23 @@
 
 
 
-//document.getElementById("btnSend").addEventListener('click', function () {
-//    alert("From: " + document.getElementById("from").value +
-//        ", Subject: " + document.getElementById("subject").value +
-//        ", Message: " + document.getElementById("message").value);
-//})
+document.getElementById("btnSend").addEventListener('click', function () {
+    alert("Assignments: " + document.getElementById("assignmets").value +
+        ", Group Projects: " + document.getElementById("group").value +
+        ", Quizzes: " + document.getElementById("quiz").value);
+})
 
 
 
 
 //here is the jQuery shortcut//
 
-$("#btnSend").click(function () {
-    alert("From: " + $("#from").val() +
-        ", Subject: " + $("#subject").val() +
-        ", Message: " + $("#message").val());
-})
+//$("#btnSend").click(function () {
+//    alert("Assignments: " + $("#assignments").val() +
+//        ", Group Project: " + $("#group").val() +
+//        ", Quizzes: " + $("#quiz").val() +
+//        ", Exams: " + $("#exam").val() +
+//        ", INTEX: " + $("#intex").val() +
+
+//        );
+//})

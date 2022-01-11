@@ -35,27 +35,31 @@
     <p>Put in each grade as a number.</p>
     <form>
         <label for="assignment">Assignments (55%):</label>
-        <input id="assignment" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+        <input id="assignment" type="number" width="100" min="0" placeholder="Put your grade here" /><br />
 
         <label for="group">Group Project (5%):</label>
-        <input id="group" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+        <input id="group" type="number" width="100" min="0" placeholder="Put your grade here" /><br />
 
         <label for="quiz">Quizzes (10%):</label>
-        <input id="quiz" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+        <input id="quiz" type="number" width="100" min="0" placeholder="Put your grade here" /><br />
 
         <label for="exam">Exams  (20%):</label>
-        <input id="exam" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+        <input id="exam" type="number" width="100" min="0" placeholder="Put your grade here" /><br />
 
         <label for="intex">INTEX (10%):</label>
-        <input id="intex" type="number" width="100" min="0"  placeholder="Put your grade here"/><br />
+        <input id="intex" type="number" width="100" min="0" placeholder="Put your grade here" /><br />
         <br />        <br />
 
-        <input class="btn" id="btnSend" type="button" value="Calculate Grade Now" />
+        <input class="btn" id="add" type="button" value="Calculate Grade Now" /> <!--id='btnSend'-->
     </form>
+
+    <p id="output"></p>
 
 
     <!--This is me linking my JS files-->
     <script src="js/calculateGrade.js"></script>
+    <script src="js/calc.js"></script>
+
 
     <!-- bootstrap JS-->
     <script src="lib/bootstrap/js/bootstrap.js"></script>
