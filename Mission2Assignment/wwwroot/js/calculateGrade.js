@@ -6,9 +6,9 @@
 
 
 document.getElementById("btnSend").addEventListener('click', function () {
-    alert("Assignments: " + document.getElementById("assignmets").value +
-        ", Group Projects: " + document.getElementById("group").value +
-        ", Quizzes: " + document.getElementById("quiz").value);
+    alert("Assignments: " + document.getElementById("from").value +
+        ", Group Projects: " + document.getElementById("subject").value +
+        ", Quizzes: " + document.getElementById("message").value);
 })
 
 
