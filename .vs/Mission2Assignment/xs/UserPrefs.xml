@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{4C4E303B-2097-4476-913B-111AB3DCE68F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission2Assignment/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission2Assignment/wwwroot/js/calc.js">
     <Files>
       <File FileName="Mission2Assignment/Program.cs" Line="1" Column="1" />
-      <File FileName="Mission2Assignment/wwwroot/index.html" Line="54" Column="12" />
-      <File FileName="Mission2Assignment/wwwroot/js/calc.js" Line="1" Column="24" />
-      <File FileName="Mission2Assignment/wwwroot/js/calculateGrade.js" Line="11" Column="54" />
-      <File FileName="Mission2Assignment/wwwroot/css/myStyles.css" Line="10" Column="3" />
-      <File FileName="Mission2Assignment/wwwroot/lib/bootstrap/js/bootstrap.js" Line="1" Column="1" />
-      <File FileName="Mission2Assignment/Startup.cs" Line="1" Column="1" />
+      <File FileName="Mission2Assignment/wwwroot/index.html" Line="76" Column="18" />
+      <File FileName="Mission2Assignment/wwwroot/js/calc.js" Line="14" Column="1" />
+      <File FileName="Mission2Assignment/wwwroot/js/calculateGrade.js" />
+      <File FileName="Mission2Assignment/wwwroot/css/myStyles.css" />
+      <File FileName="Mission2Assignment/wwwroot/lib/bootstrap/js/bootstrap.js" />
+      <File FileName="Mission2Assignment/Startup.cs" />
+      <File FileName="Mission2Assignment/wwwroot/lib/jquery/jquery-3.6.0.min.js" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,15 +19,16 @@
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
                 <Node name="img" expanded="True" />
-                <Node name="js" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="calc.js" selected="True" />
+                </Node>
                 <Node name="lib" expanded="True">
                   <Node name="bootstrap" expanded="True">
-                    <Node name="css" expanded="True" />
                     <Node name="js" expanded="True" />
                   </Node>
+                  <Node name="jquery" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -36,7 +38,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission2Assignment/Mission2Assignment/wwwroot/js/calc.js" relfile="Mission2Assignment/wwwroot/js/calc.js" line="144" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Mission2Assignment PreferredExecutionTarget="/Applications/Google Chrome.app" />
