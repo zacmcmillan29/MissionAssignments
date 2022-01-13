@@ -2,13 +2,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Mission2Assignment/wwwroot/js/calc.js">
     <Files>
       <File FileName="Mission2Assignment/Program.cs" Line="1" Column="1" />
-      <File FileName="Mission2Assignment/wwwroot/index.html" Line="76" Column="18" />
+      <File FileName="Mission2Assignment/wwwroot/index.html" />
       <File FileName="Mission2Assignment/wwwroot/js/calc.js" Line="14" Column="1" />
       <File FileName="Mission2Assignment/wwwroot/js/calculateGrade.js" />
       <File FileName="Mission2Assignment/wwwroot/css/myStyles.css" />
       <File FileName="Mission2Assignment/wwwroot/lib/bootstrap/js/bootstrap.js" />
       <File FileName="Mission2Assignment/Startup.cs" />
-      <File FileName="Mission2Assignment/wwwroot/lib/jquery/jquery-3.6.0.min.js" Line="1" Column="1" />
+      <File FileName="Mission2Assignment/wwwroot/lib/jquery/jquery-3.6.0.min.js" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
